@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "mlnlml.ml",
+  "description": "mlnlmal.ml - URL shortener(http://mlnlmal.ml)",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+
+  "background": {
+    "scripts": ["script.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "tabs"
+  ]
+}
